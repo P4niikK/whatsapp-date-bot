@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-date-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que envía ideas de citas románticas cada 2 días",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "node bot.js --test"
+  },
+  "keywords": ["whatsapp", "bot", "citas", "romántico", "buenos aires"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.3.1"
+  }
+}
